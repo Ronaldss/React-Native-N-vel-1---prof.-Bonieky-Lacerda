@@ -1,22 +1,13 @@
 import React, { Component } from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 
-export default class PrimeiroNome extends Component {
-  render(){
-    return(
-      <Text>Ronald</Text>
-    );
-  }
+export default class Texto extends Component {
+    render(){
+		return(
+			<View>
+				<Text>Hora de estudar StyleSheet</Text>
+			</View>
+		);
+	};
 };
 
-const SegundoNome = () => {
-  return(
-    <Text>Santos</Text>
-  );
-};
-
-function terceiroNome(){
-  return(
-    <Text>Silva.</Text>
-  );
-};
