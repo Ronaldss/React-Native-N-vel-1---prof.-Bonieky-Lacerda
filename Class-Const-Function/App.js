@@ -36,7 +36,7 @@ function terceiroNome(){
 export default class PrimeiroNome extends Component {
 
   nome = {
-    primeiroNome: 'Ronald',
+    primeiroNome: 'Nome',
     segundoNome: 'Santos',
     terceiroNome: 'Silva.'
   };
